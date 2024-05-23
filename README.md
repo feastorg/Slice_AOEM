@@ -43,7 +43,7 @@
     <img src="https://img.shields.io/github/stars/uwo-fast/Slice_AOEM?style=social" alt="Stars">
   </a>
   <!-- Short description: -->
-  <h3>Altas Scientific OEM Slice for BREAD.</h3>
+  <h3>Altas Scientific OEM Slice for BREAD (pH, DO, EC, ORP).</h3>
 </div>
 
 

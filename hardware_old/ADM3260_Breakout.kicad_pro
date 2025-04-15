@@ -37,28 +37,21 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 5e-06,
-          "height": 1e-05,
-          "width": 1e-05
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
-        "silk_line_width": 0.12,
+        "silk_line_width": 0.1,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -80,7 +73,7 @@
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "error",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "hole_to_hole": "error",
@@ -100,7 +93,7 @@
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
-        "padstack": "error",
+        "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
@@ -124,11 +117,7 @@
         "via_dangling": "warning",
         "zones_intersect": "error"
       },
-      "rule_severitieslegacy_courtyards_overlap": true,
-      "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
-        "allow_blind_buried_vias": false,
-        "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.1,
         "min_connection": 0.0,
@@ -142,10 +131,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.4,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.0,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -193,13 +182,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.5,
-        1.0,
-        1.5,
-        3.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -226,26 +209,8 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        },
-        {
-          "diameter": 0.5,
-          "drill": 0.0
-        },
-        {
-          "diameter": 1.0,
-          "drill": 0.5
-        },
-        {
-          "diameter": 1.5,
-          "drill": 1.0
-        }
-      ],
-      "zones_allow_external_fillets": false,
-      "zones_use_no_outline": true
+      "via_dimensions": [],
+      "zones_allow_external_fillets": false
     },
     "ipc2581": {
       "dist": "",
@@ -488,14 +453,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "BREAD_Slice.kicad_pro",
+    "filename": "ADM3260_Breakout.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -506,27 +471,9 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 1.25,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 1,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "HV Relay",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 3.0,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -535,74 +482,17 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "",
-        "pattern": ""
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "NC2"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "NO2"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "ESTOP2"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "HV Line"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "ESTOPA2"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "IN2"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "ESTOPB2"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "FUSE2"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "NC1"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "NO1"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "IN1"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "ESTOP1"
-      },
-      {
-        "netclass": "HV Relay",
-        "pattern": "FUSE1"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "BREAD_Slice.net",
+      "netlist": "",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "BREAD_Slice.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -610,7 +500,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -682,34 +572,24 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.25,
+      "label_size_ratio": 0.375,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
       "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.08
+      "text_offset_ratio": 0.15
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
       "version": 1
     },
-    "net_format_name": "Pcbnew",
-    "ngspice": {
-      "fix_include_paths": true,
-      "fix_passive_vals": false,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0,
-      "workbook_filename": ""
-    },
+    "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
-    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -721,40 +601,8 @@
   },
   "sheets": [
     [
-      "66043bca-a260-4915-9fce-8a51d324c687",
+      "3285bcd1-6164-404f-b38a-892bd524b43a",
       "Root"
-    ],
-    [
-      "03b51eaa-4c9c-4bd0-8d43-a3188ca38974",
-      "ADM3260 I2C Isolator1"
-    ],
-    [
-      "b9e6b4ad-ea92-4373-99e6-a214b88804f1",
-      "Isolated Atlas OEM Module1"
-    ],
-    [
-      "03b51eaa-4c9c-4bd0-8d43-a3188ca38974",
-      "ADM3260 I2C Isolator1"
-    ],
-    [
-      "1a5afa14-9306-4021-9a77-0f3f5d671d9b",
-      "Isolated Atlas OEM Module2"
-    ],
-    [
-      "65092a5f-0253-4cd4-8063-c5360845ee2b",
-      "Isolated Atlas OEM Module"
-    ],
-    [
-      "03b51eaa-4c9c-4bd0-8d43-a3188ca38974",
-      "ADM3260 I2C Isolator1"
-    ],
-    [
-      "9b3b9993-cb55-4909-81ce-17a62d8a990b",
-      "Isolated Atlas OEM Module3"
-    ],
-    [
-      "03b51eaa-4c9c-4bd0-8d43-a3188ca38974",
-      "ADM3260 I2C Isolator1"
     ]
   ],
   "text_variables": {}

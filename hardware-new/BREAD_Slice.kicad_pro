@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.5
+          "min_clearance": 1e-06
         }
       },
       "diff_pair_dimensions": [
@@ -195,6 +195,7 @@
       ],
       "track_widths": [
         0.0,
+        0.4,
         0.5,
         1.0,
         1.5,
@@ -233,7 +234,11 @@
         },
         {
           "diameter": 0.5,
-          "drill": 0.0
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         },
         {
           "diameter": 1.0,
@@ -725,23 +730,7 @@
       "Root"
     ],
     [
-      "03b51eaa-4c9c-4bd0-8d43-a3188ca38974",
-      "ADM3260 I2C Isolator1"
-    ],
-    [
-      "b9e6b4ad-ea92-4373-99e6-a214b88804f1",
-      "Isolated Atlas OEM Module1"
-    ],
-    [
-      "03b51eaa-4c9c-4bd0-8d43-a3188ca38974",
-      "ADM3260 I2C Isolator1"
-    ],
-    [
-      "1a5afa14-9306-4021-9a77-0f3f5d671d9b",
-      "Isolated Atlas OEM Module2"
-    ],
-    [
-      "65092a5f-0253-4cd4-8063-c5360845ee2b",
+      "16360839-80fd-4f94-969f-3187cfe2d2a6",
       "Isolated Atlas OEM Module"
     ],
     [
@@ -749,7 +738,23 @@
       "ADM3260 I2C Isolator1"
     ],
     [
-      "9b3b9993-cb55-4909-81ce-17a62d8a990b",
+      "03b51eaa-4c9c-4bd0-8d43-a3188ca38974",
+      "ADM3260 I2C Isolator1"
+    ],
+    [
+      "08da6c1a-0e84-45d8-9a2d-b2db06f3ad22",
+      "Isolated Atlas OEM Module1"
+    ],
+    [
+      "daa0c95f-a984-4744-82d2-0c5c51abb8dc",
+      "Isolated Atlas OEM Module2"
+    ],
+    [
+      "03b51eaa-4c9c-4bd0-8d43-a3188ca38974",
+      "ADM3260 I2C Isolator1"
+    ],
+    [
+      "737bb3ec-ff06-4334-b724-16047a5ff22e",
       "Isolated Atlas OEM Module3"
     ],
     [

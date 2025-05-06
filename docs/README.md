@@ -1,21 +1,30 @@
-# PDER
+# Docs
 
-## Overview
+## parts dump
+
+- Molex edge mount horizontal SMA connector: 73251-1153
+  - https://www.mouser.com/ProductDetail/Molex/73251-1153?qs=vxeUf0TWHS0zlj4xWb5GCw%3D%3D
+  - recommended PCB thickness: 1.60mm
+- enable switch
+  - N-channel MOSFET BS170: https://www.digikey.ca/en/products/detail/diodes-incorporated/BS170FTA/53877
+  - P-channel MOSGET BSS84: https://www.digikey.ca/en/products/detail/onsemi/BSS84/244213
+
+## Engineering Notepad
 
 Carrier for the Atlas OEM sensor boards for potential of hydrogen (pH), dissolved oxygen (DO), electrical conductivity (EC), and oxidation reduction potential (ORP).
 
 This design builds off of:
-* [github.com/skullbox305/Atlas-Scientific-pH-OEM-ADM3260](https://github.com/skullbox305/Atlas-Scientific-pH-OEM-ADM3260). 
-* Eagle PCB Design for Atlas Scientific OEM pH and ORP Sensors. Noise Isolation with ADM3260
-![](ADM3260_Breakout.png)
 
-## Engineering Notepad
+- [github.com/skullbox305/Atlas-Scientific-pH-OEM-ADM3260](https://github.com/skullbox305/Atlas-Scientific-pH-OEM-ADM3260).
+- Eagle PCB Design for Atlas Scientific OEM pH and ORP Sensors. Noise Isolation with ADM3260
+  ![](ADM3260_Breakout.png)
 
 ### Schematic Overview
 
 The schematic contains several key components and sections:
 
 1. **I2C Isolation (U1 - ADM3260)**
+
    - **Purpose**: The ADM3260 is a signal and power isolated I2C digital isolator with a voltage regulator.
    - **Connections**:
      - **Primary Side (SCL2, SDA2)**: These lines connect to the I2C bus of the non-isolated side.
@@ -23,27 +32,29 @@ The schematic contains several key components and sections:
      - **Power**: The chip is powered by AVCC on the primary side and 3.3V-ISO on the secondary side. Capacitors (C1-C8) are used for decoupling.
 
 2. **CMOS Power Switch (Q1, Q2, Q3)**
+
    - **Purpose**: Controls the power to the isolated section.
-   - **Connections**: 
+   - **Connections**:
      - **EN**: The enable line controls the gates of the MOSFETs, allowing the AVCC power to be switched.
 
 3. **Analog Sensor (U2)**
    - **Purpose**: This interfaces with an Atlas Scientific OEM module sensor.
-   - **Connections**: 
+   - **Connections**:
      - **SDA, SCL**: Connected to the isolated I2C bus.
      - **VCC, GND**: Power connections.
      - **PRB, PRBGND**: Probe connections.
-
 
 ### Layer Arrangement
 
 The arrangement of layers is crucial for signal integrity, power distribution, and minimizing noise:
 
 1. **Top Layer (Signal Layer)**:
+
    - Contains components and critical signal traces.
    - Provides easy access for soldering and modifications.
 
 2. **Inner Layers (Power and Ground Planes)**:
+
    - **Inner Layer 1 (Yellow)**: Dedicated to power (e.g., 3.3V, 5V), providing a stable power distribution network.
    - **Inner Layer 2 (Green)**: Dedicated to ground (GND), reducing the loop area for ground currents and minimizing EMI.
 
@@ -56,4 +67,3 @@ The arrangement of layers is crucial for signal integrity, power distribution, a
 - **I2C Isolation**: The ADM3260 ensures that the I2C bus on the primary side is electrically isolated from the secondary side. This prevents noise and interference from affecting sensitive analog measurements.
 - **Power Switch**: The CMOS power switch ensures that the isolated section can be powered down independently, reducing power consumption when the sensor is not in use.
 - **Ground and Power Planes**: The use of dedicated ground and power planes reduces noise and provides a stable reference for all signals, improving overall performance and reliability.
-

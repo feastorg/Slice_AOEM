@@ -5,6 +5,11 @@
 *.sch-bak
 *~
 
+# Ignore lock and history files
+*.lock
+*.lck
+*.history
+
 # Ignore KiCad autosave files
 *.tmp
 *.sav
@@ -19,3 +24,5 @@ fp-lib-table
 *.log
 *.bak
 *.swp
+
+*-backups/

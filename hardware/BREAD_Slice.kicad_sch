@@ -8149,7 +8149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KMLib_Mounting:Thermal Pad"
+		(property "Footprint" "KMLib_Mounting:Thermal_Pad"
 			(at 35.8648 97.79 0)
 			(hide yes)
 			(show_name no)

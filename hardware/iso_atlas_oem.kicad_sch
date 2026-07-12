@@ -233,7 +233,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -244,8 +244,30 @@
 				)
 			)
 			(property "Description" "Solder Jumper, 3-pole, open"
-				(at 0 0 0)
+				(at 0 -12.7 0)
 				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
+				(at 0 -17.78 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
+				(at 0 -20.32 0)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -294,7 +316,7 @@
 						(xy -1.016 1.016) (xy -1.016 -1.016)
 					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -306,19 +328,7 @@
 					(mid -2.0276 0)
 					(end -1.016 1.016)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.016 -1.016)
-					(mid -2.0276 0)
-					(end -1.016 1.016)
-					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -329,7 +339,7 @@
 					(start -0.508 1.016)
 					(end 0.508 -1.016)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -353,19 +363,7 @@
 					(mid 2.0276 0)
 					(end 1.016 -1.016)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 1.016)
-					(mid 2.0276 0)
-					(end 1.016 -1.016)
-					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -377,7 +375,7 @@
 						(xy 1.016 1.016) (xy 1.016 -1.016)
 					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -455,7 +453,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "kml-custom:AtlasOEM"
+		(symbol "KMLib_Sensors:AtlasOEM"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -481,7 +479,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Atlas-Scientific:Atlas_OEM"
+			(property "Footprint" "KMLib_Boards_Modules:Atlas_OEM"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -508,16 +506,6 @@
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1425,7 +1413,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 102.87 0)
+			(at 156.21 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1436,7 +1424,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 171.45 102.87 0)
+			(at 158.75 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1477,7 +1465,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kml-custom:AtlasOEM")
+		(lib_id "KMLib_Sensors:AtlasOEM")
 		(at 120.65 92.71 0)
 		(mirror y)
 		(unit 1)
@@ -1508,7 +1496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kml-custom:Atlas_OEM"
+		(property "Footprint" "KMLib_Boards_Modules:Atlas_OEM"
 			(at 120.65 92.71 0)
 			(hide yes)
 			(show_name no)

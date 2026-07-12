@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -49,7 +51,23 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.25
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.25,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -59,7 +77,40 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "footprint_type_mismatch|153009763|116240482|0d2e3ad7-70c9-48ee-94ce-14367de6f4f3|00000000-0000-0000-0000-000000000000",
+          "connector is edge mount"
+        ],
+        [
+          "footprint_type_mismatch|153009763|129100482|722a134e-f5d1-44e5-ae3f-f7be53a373e5|00000000-0000-0000-0000-000000000000",
+          "connector is edge mount"
+        ],
+        [
+          "footprint_type_mismatch|153039763|146910246|e20d0256-4ec6-4695-8c7f-b725379fa54c|00000000-0000-0000-0000-000000000000",
+          "connector is edge mount"
+        ],
+        [
+          "footprint_type_mismatch|153039763|159770246|64a110ee-3f81-4317-abf4-0e1e923d18e0|00000000-0000-0000-0000-000000000000",
+          "connector is edge mount"
+        ],
+        [
+          "footprint_type_mismatch|153048299|86240246|6d403273-15a8-4b16-8485-1a214fb6cf00|00000000-0000-0000-0000-000000000000",
+          "connector is edge mount"
+        ],
+        [
+          "footprint_type_mismatch|153048299|99100246|1a10b93e-60ec-443c-89da-dd27e84ba643|00000000-0000-0000-0000-000000000000",
+          "connector is edge mount"
+        ],
+        [
+          "footprint_type_mismatch|153061165|56760394|3b403585-8d2e-4409-bd2d-78bef19621b8|00000000-0000-0000-0000-000000000000",
+          "connector is edge mount"
+        ],
+        [
+          "footprint_type_mismatch|153061165|69620394|62ba6dee-e4d8-4b73-8d4c-568cab795a7b|00000000-0000-0000-0000-000000000000",
+          "connector is edge mount"
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -79,6 +130,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
@@ -97,6 +149,7 @@
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
@@ -116,9 +169,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",

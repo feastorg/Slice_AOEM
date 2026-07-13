@@ -2578,7 +2578,7 @@
 			)
 		)
 	)
-	(footprint "kml-custom:RS_20_ADI-L"
+	(footprint "KMLib_IC_SMD:RS_20_ADI-L"
 		(layer "F.Cu")
 		(uuid "0f879c7b-28cd-4fd3-9ff0-14f3fccd030c")
 		(at 122.388799 92.261991)
@@ -4143,7 +4143,7 @@
 			)
 		)
 	)
-	(footprint "kml-custom:RS_20_ADI-L"
+	(footprint "KMLib_IC_SMD:RS_20_ADI-L"
 		(layer "F.Cu")
 		(uuid "1345d5e2-bb01-474c-8150-322148047f2b")
 		(at 122.348985 122.261432)
@@ -8776,7 +8776,7 @@
 			)
 		)
 	)
-	(footprint "kml-custom:Atlas_OEM"
+	(footprint "KMLib_Boards_Modules:Atlas_OEM"
 		(layer "F.Cu")
 		(uuid "48585bc0-18c3-4c52-87b0-43c43095eecd")
 		(at 146.660124 69.186598 90)
@@ -9665,7 +9665,7 @@
 			)
 		)
 	)
-	(footprint "SparkFun-LED:WS2812-5050-4PIN"
+	(footprint "KMLib_IC_SMD:WS2812-5050-4PIN"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "4ec4e171-1549-4997-8479-26c2f6f0dd92")
@@ -10361,7 +10361,7 @@
 			)
 		)
 	)
-	(footprint "kml-custom:Atlas_OEM"
+	(footprint "KMLib_Boards_Modules:Atlas_OEM"
 		(layer "F.Cu")
 		(uuid "5739436b-94c6-41b2-b465-6d0a53882bf5")
 		(at 146.638722 159.33645 90)
@@ -14239,7 +14239,7 @@
 			)
 		)
 	)
-	(footprint "kml-custom:FAST-Logo-XXXLarge"
+	(footprint "KMLib_Aesthetic:FAST-Logo-XXXLarge"
 		(layer "F.Cu")
 		(uuid "7bd341b7-e9a3-47bd-8192-ce350704e168")
 		(at 85.87 72.61)
@@ -17584,7 +17584,7 @@
 			)
 		)
 	)
-	(footprint "kml-custom:Atlas_OEM"
+	(footprint "KMLib_Boards_Modules:Atlas_OEM"
 		(layer "F.Cu")
 		(uuid "911e983f-cb14-48ba-ab3e-a438d727aa04")
 		(at 146.647258 98.66645 90)
@@ -20073,7 +20073,7 @@
 			)
 		)
 	)
-	(footprint "kml-custom:Thermal Pad"
+	(footprint "KMLib_Mounting:Thermal_Pad"
 		(layer "F.Cu")
 		(uuid "ac93a89c-9913-407d-a22c-27edb4b057e1")
 		(at 66.774465 162.653932)
@@ -21194,7 +21194,7 @@
 			)
 		)
 	)
-	(footprint "kml-custom:RS_20_ADI-L"
+	(footprint "KMLib_IC_SMD:RS_20_ADI-L"
 		(layer "F.Cu")
 		(uuid "ba12a33b-9bbd-4b1a-a16e-a93e4461735d")
 		(at 122.380263 152.929746)
@@ -22513,7 +22513,7 @@
 			)
 		)
 	)
-	(footprint "kml-custom:Atlas_OEM"
+	(footprint "KMLib_Boards_Modules:Atlas_OEM"
 		(layer "F.Cu")
 		(uuid "bd2d2267-2b4e-4097-929c-9d556a1aa1df")
 		(at 146.608722 128.666686 90)
@@ -25578,7 +25578,7 @@
 			)
 		)
 	)
-	(footprint "kml-custom:RS_20_ADI-L"
+	(footprint "KMLib_IC_SMD:RS_20_ADI-L"
 		(layer "F.Cu")
 		(uuid "e4afc3aa-2df5-4b20-b278-3e0280b61765")
 		(at 122.395387 62.776344)

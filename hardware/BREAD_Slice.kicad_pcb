@@ -46595,6 +46595,14 @@
 	)
 	(segment
 		(start 153.38829 99.100246)
+		(end 154.7683 99.100246)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "/Isolated Atlas OEM Module3/SIG_1")
+		(uuid "90345500-dd07-4ee5-87d3-51c2a0421ddb")
+	)
+	(segment
+		(start 153.38829 99.100246)
 		(end 150.368536 102.12)
 		(width 0.4)
 		(layer "F.Cu")
@@ -50506,6 +50514,14 @@
 	)
 	(segment
 		(start 153.401156 69.620394)
+		(end 154.7812 69.620394)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "/Isolated Atlas OEM Module4/SIG_1")
+		(uuid "4ada171b-019f-4cdc-9816-7ff742365d44")
+	)
+	(segment
+		(start 153.401156 69.620394)
 		(end 150.381402 72.640148)
 		(width 0.4)
 		(layer "F.Cu")
@@ -53046,6 +53062,14 @@
 		(layer "F.Cu")
 		(net "/Isolated Atlas OEM Module1/SIG_1")
 		(uuid "76efdd36-67f4-436d-9f9d-23d73ce95fbd")
+	)
+	(segment
+		(start 153.379754 159.770246)
+		(end 154.7598 159.770246)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "/Isolated Atlas OEM Module1/SIG_1")
+		(uuid "d505d4a9-a286-400f-9a0c-ffc676623a95")
 	)
 	(segment
 		(start 145.74 157.8268)
@@ -58990,6 +59014,14 @@
 		(layer "F.Cu")
 		(net "/ADM3260 I2C Isolator4/VSEL")
 		(uuid "fc46e6b3-64bb-4c09-a60f-b6b12965dd82")
+	)
+	(segment
+		(start 153.349754 129.100482)
+		(end 154.7298 129.100482)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "/Isolated Atlas OEM Module2/SIG_1")
+		(uuid "275c8389-754a-455c-8ca3-d78f5771240e")
 	)
 	(segment
 		(start 150.33 132.120236)

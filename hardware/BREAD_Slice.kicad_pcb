@@ -33918,7 +33918,7 @@
 			)
 		)
 	)
-	(gr_text "BREAD Slice\nAtlas.Sci.\nOEM Multi.\nSLC_AOEM\nR3 05-2025"
+	(gr_text "BREAD Slice\nAtlas Sci\nOEM\nSLC_AOEM\nR1 11-2026"
 		(at 63.58 143.99 270)
 		(layer "F.SilkS")
 		(uuid "5abfd3cf-8b82-409d-b0dd-ab0b45a460bd")

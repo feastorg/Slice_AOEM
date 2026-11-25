@@ -13032,7 +13032,7 @@
 		(at 71.601324 147.857574 -90)
 		(descr "Open Source Hardware Symbol")
 		(tags "Logo Symbol OSHW")
-		(property "Reference" "REF**"
+		(property "Reference" "Logo1"
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -13082,7 +13082,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -14243,7 +14243,7 @@
 		(layer "F.Cu")
 		(uuid "7bd341b7-e9a3-47bd-8192-ce350704e168")
 		(at 85.87 72.61)
-		(property "Reference" "G***"
+		(property "Reference" "Logo2"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)

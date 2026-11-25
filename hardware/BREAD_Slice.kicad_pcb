@@ -13003,7 +13003,7 @@
 	(footprint "Symbol:OSHW-Symbol_8.9x8mm_SilkScreen"
 		(layer "F.Cu")
 		(uuid "70485ced-2425-4deb-b5e2-e66935162d50")
-		(at 71.601324 147.857574 -90)
+		(at 68.5 112 -90)
 		(descr "Open Source Hardware Symbol")
 		(tags "Logo Symbol OSHW")
 		(property "Reference" "Logo1"
@@ -14416,7 +14416,7 @@
 	(footprint "KMLib_Aesthetic:FAST-Logo-XXXLarge"
 		(layer "F.Cu")
 		(uuid "7bd341b7-e9a3-47bd-8192-ce350704e168")
-		(at 85.87 72.61)
+		(at 79.1 57)
 		(property "Reference" "Logo2"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -20330,7 +20330,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "Heat Sink"
-			(at 0 -6.7 0)
+			(at -7.874 0 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "b0bad73a-b2a7-4bad-bebe-f1f8f1b2af85")
@@ -32438,18 +32438,6 @@
 		)
 		(layer "Margin")
 		(uuid "aeffc43e-48eb-4c28-b028-06eea58e6015")
-	)
-	(gr_text "PWRGND - GNDD"
-		(at 64.05 169.88 0)
-		(layer "F.SilkS")
-		(uuid "87bd163d-a6f8-4847-a0d1-7c006f8eab2a")
-		(effects
-			(font
-				(size 0.8 0.6)
-				(thickness 0.125)
-			)
-			(justify bottom)
-		)
 	)
 	(gr_text "GND"
 		(at 63.3008 120.4102 315)

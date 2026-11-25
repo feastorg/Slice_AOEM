@@ -8,4 +8,10 @@ These are the docs & KiBot Outputs for Slice AOEM
 
 The following files were generated from the latest PCB build:
 
-_(Not yet generated — will be populated by CI on first successful run.)_
+- [Schematic.pdf](./Schematic.pdf)
+- [PCB.pdf](./PCB.pdf)
+- [kibot.log](./kibot.log)
+- [BREAD_Slice-bom.html](./BREAD_Slice-bom.html)
+- [BREAD_Slice-ibom.html](./BREAD_Slice-ibom.html)
+
+_Last updated automatically on 2026-11-25 at 22:13:11 UTC by KiBot via GitHub Actions._

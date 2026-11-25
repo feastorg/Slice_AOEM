@@ -8988,6 +8988,17 @@
 			(uuid "c505c7a8-f802-4b49-b7e2-0cdfaf044a55")
 		)
 		(fp_rect
+			(start -1.35 -11.1)
+			(end 13.45 2.4)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "1df7d019-b289-4a93-97c6-234285ef9eb9")
+		)
+		(fp_rect
 			(start 0 -11)
 			(end 12 2.31)
 			(stroke
@@ -8995,7 +9006,7 @@
 				(type default)
 			)
 			(fill no)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "037cdcda-5c71-4202-b53f-39d482f629c5")
 		)
 		(fp_poly
@@ -10573,6 +10584,17 @@
 			(uuid "ca0262c0-a769-4ad4-811b-5607be4fe46f")
 		)
 		(fp_rect
+			(start -1.35 -11.1)
+			(end 13.45 2.4)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "006f0500-61f9-434e-80a3-eaa671ccb34a")
+		)
+		(fp_rect
 			(start 0 -11)
 			(end 12 2.31)
 			(stroke
@@ -10580,7 +10602,7 @@
 				(type default)
 			)
 			(fill no)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "d4982dcc-129d-44b6-a242-72f6b9d8b14f")
 		)
 		(fp_poly
@@ -18007,6 +18029,17 @@
 			(uuid "7dcbdb56-5938-49f8-9333-94875df45a84")
 		)
 		(fp_rect
+			(start -1.35 -11.1)
+			(end 13.45 2.4)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "6e5f85e8-55df-4713-ab9b-ae530bbc4153")
+		)
+		(fp_rect
 			(start 0 -11)
 			(end 12 2.31)
 			(stroke
@@ -18014,7 +18047,7 @@
 				(type default)
 			)
 			(fill no)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "e949e04d-a509-495e-9c24-7dc5c475ca11")
 		)
 		(fp_poly
@@ -22936,6 +22969,17 @@
 			(uuid "460408bc-44e8-4390-8194-76cc5ea05add")
 		)
 		(fp_rect
+			(start -1.35 -11.1)
+			(end 13.45 2.4)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "6bddf362-6e53-49e5-bd68-0944d412f97f")
+		)
+		(fp_rect
 			(start 0 -11)
 			(end 12 2.31)
 			(stroke
@@ -22943,7 +22987,7 @@
 				(type default)
 			)
 			(fill no)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "c91ec7b0-73a6-476c-91f6-cce92dabd285")
 		)
 		(fp_poly

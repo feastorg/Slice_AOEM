@@ -3694,32 +3694,8 @@
 		)
 		(fp_text user "*"
 			(at -3.8354 -4.449001 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "9c58e253-145d-42ca-850b-7fd78612ca69")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "*"
-			(at -3.8354 -4.449001 0)
 			(layer "F.SilkS")
 			(uuid "fdcea6a4-fff9-46bd-bf3a-e2799f3fa745")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "*"
-			(at -2.413 -3.6703 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "3f5e5023-ffe1-4480-b3f8-f9a594b865b6")
 			(effects
 				(font
 					(size 1 1)
@@ -5269,33 +5245,9 @@
 			)
 		)
 		(fp_text user "*"
-			(at -3.8354 -4.449001 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "b4cf89e1-4ef0-4060-9795-e33366feb0be")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "*"
 			(at -2.413 -3.6703 0)
 			(layer "F.Fab")
 			(uuid "4c31cc07-e58b-4da1-954f-d3c32ce98a29")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "*"
-			(at -2.413 -3.6703 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "eb003fcd-7486-4daa-bfa1-3ef39ba96926")
 			(effects
 				(font
 					(size 1 1)
@@ -6582,7 +6534,7 @@
 		(descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
-			(at 0 -1.8 0)
+			(at 0.8 2.1 0)
 			(layer "F.SilkS")
 			(uuid "03a66064-c3ea-413f-82a6-8c7a4adde4ab")
 			(effects
@@ -23820,7 +23772,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R16"
-			(at 0 -1.43 0)
+			(at -1.085985 0.838068 0)
 			(layer "F.SilkS")
 			(uuid "1badae9b-f8f9-4515-a2a7-92bfcc01aeaa")
 			(effects
@@ -26715,33 +26667,9 @@
 			)
 		)
 		(fp_text user "*"
-			(at -3.8354 -4.449001 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "795074db-7474-482d-b37a-779997f703ba")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "*"
 			(at -2.413 -3.6703 0)
 			(layer "F.Fab")
 			(uuid "2c798b67-24af-4865-a98f-db78f0112d4d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "*"
-			(at -2.413 -3.6703 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "a8a86a2c-bc18-40e0-a1ff-b50e45bd2421")
 			(effects
 				(font
 					(size 1 1)

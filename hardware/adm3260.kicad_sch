@@ -4607,7 +4607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KMLib_IC_SMD:RS_20_ADI"
+		(property "Footprint" "KMLib_IC_SMD:RS_20_ADI-L"
 			(at 110.49 82.55 0)
 			(hide yes)
 			(show_name no)

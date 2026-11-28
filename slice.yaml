@@ -4,16 +4,16 @@ id: slice-aoem
 name: Atlas Scientific OEM Carrier
 summary: Isolated carrier for Atlas Scientific OEM modules (pH, DO, EC, ORP) with ADM3260 I2C isolation.
 category: sensing
-status: concept
+status: development
 hardware:
   hw_gen_current: 3
   interface: SI1
   pcb:
-    layers: 2
-    dimensions: 100mm x 145mm
+    layers: 4
+    dimensions: 100.116mm x 144.894mm
     thickness: 1.6mm
   mounting:
-    pattern: slice-L-v0
+    pattern: null
   mcu:
     form_factor: nano
 interfaces:
